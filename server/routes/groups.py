@@ -3,6 +3,8 @@ from flask import Blueprint, jsonify, request
 from schemas import GroupCreateRequest
 from services.expense_service import create_group, get_group, list_groups
 
+
+
 groups_bp = Blueprint("groups", __name__)
 
 

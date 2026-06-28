@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 
 from flask import Flask, jsonify, render_template, request
 from pydantic import ValidationError
@@ -13,6 +14,7 @@ from routes.pages import pages_bp
 from routes.users import users_bp
 
 
+load_dotenv()
 def create_app(test_config=None):
     app = Flask(__name__, static_folder="../client/static", template_folder="../client/templates")
 

@@ -1,6 +1,6 @@
 import unittest
 
-from services.ledger_service import allocate_weighted_amount, calculate_settlements
+from server.services.ledger_service import allocate_weighted_amount, calculate_settlements
 
 
 class LedgerServiceTests(unittest.TestCase):

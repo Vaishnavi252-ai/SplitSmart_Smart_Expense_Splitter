@@ -3,6 +3,8 @@ from flask import Blueprint, jsonify, request
 from schemas import UserCreateRequest
 from services.expense_service import create_user, list_users
 
+
+
 users_bp = Blueprint("users", __name__)
 
 

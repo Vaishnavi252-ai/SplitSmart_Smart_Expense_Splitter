@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from unittest import mock
 
-from app import create_app
+from server.app import create_app
 
 
 class ExpenseSplitterApiTests(unittest.TestCase):

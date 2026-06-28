@@ -5,6 +5,7 @@ from flask import current_app, g
 from services.seed_service import seed_database
 
 
+
 SCHEMA_SQL = """
 PRAGMA foreign_keys = ON;
 

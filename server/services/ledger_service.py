@@ -3,6 +3,7 @@ from collections import defaultdict
 from errors import ApiError
 
 
+
 def format_paise(amount_paise: int) -> str:
     return f"₹{amount_paise / 100:.2f}"
 
